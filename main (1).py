@@ -19,7 +19,7 @@ for i in range(x):
         print(j+1,end=" ")
     print("\n")
 
-#pattern of pyramidal 
+#pattern of pyramidal
 x=int(input())
 for i in range(x):
     for j in range(x-i-1):
@@ -44,6 +44,7 @@ for i in range(x-2,-1,-1):
     print()
 
 #pattern of pyramidal 2
+#method 1
 x=int(input())
 for i in range(x+4):
     for j in range(x-i+4):
@@ -54,6 +55,18 @@ for i in range(x+4):
         else:
           print("*",end=" ")
     print()
+
+#pattern of pyramidal 2
+#method 2
+
+n=int(input())
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ",end=" ")
+    for j in range(2*i+1):
+        print("*",end=" ")
+    print()
+
 
 
 
