@@ -43,3 +43,18 @@ for i in range(x-2,-1,-1):
         print("*",end=" ")
     print()
 
+#pattern of pyramidal 2
+x=int(input())
+for i in range(x+4):
+    for j in range(x-i+4):
+        print(" ",end="")
+    for j in range(i+1):
+        if(i%2!=0):
+            break
+        else:
+          print("*",end=" ")
+    print()
+
+
+
+
